@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tsklabs-cis"
+version = "0.1.0"
+description = ""
+authors = ["lktslionel <lktslionel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tsklabs_cis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ansible = "^8.0.0"
+
+[tool.poetry.group.dev.dependencies]
+molecule = "^5.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
